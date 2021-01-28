@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="browser" value="chrome"></parameter>
+  <test name="nopcommerce regression test">
+    <classes>
+      <class name="commerce.taf.tests.UserRegistrationTest"/>
+    </classes>
+  </test>
+</suite>
